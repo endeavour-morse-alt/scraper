@@ -1,15 +1,20 @@
 {
-  "name": "admission-scraper",
+  "name": "scraper",
   "version": "1.0.0",
   "description": "",
-  "main": "scraper.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endeavour-morse-alt/scraper.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "puppeteer": "^24.31.0"
-  }
+  "bugs": {
+    "url": "https://github.com/endeavour-morse-alt/scraper/issues"
+  },
+  "homepage": "https://github.com/endeavour-morse-alt/scraper#readme"
 }
