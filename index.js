@@ -1,6 +1,8 @@
 const fs = require('fs');
 const puppeteer = require('puppeteer');
 
+console.log("It's working, finally");
+
 (async () => {
     const browser = await puppeteer.launch({
         headless: true,
